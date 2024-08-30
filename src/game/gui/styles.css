@@ -1,0 +1,112 @@
+.startScreen-background {
+    -fx-background-image: url('Images/Map-Background.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.weaponScreen-background {
+    -fx-background-image: url('Images/weapon2.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.GameScreen-background {
+    -fx-background-image: url('Images/GameBackground.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.endScreen-background {
+    -fx-background-image: url('Images/back2.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.mainTitle{
+	-fx-fill: white;
+}
+
+.startButton{
+	-fx-background-color: #56451f;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 15px;
+}
+.startButton:hover {
+    -fx-background-color: #4e2d13;
+}
+
+.infoButton{
+	-fx-background-color: #bf6839;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 15px;
+}
+.infoButton:hover {
+    -fx-background-color: #a02c1c;
+}
+
+.modeButton{
+	
+	-fx-text-fill: #ffffff;
+}
+
+#okButton{
+	-fx-background-color: #33200d;
+    -fx-text-fill: #ffffff;
+}
+
+#okButton:hover {
+    -fx-background-color: #4e2d15;
+    -fx-text-fill: #ffffff;
+}
+
+.homebutton{
+	-fx-background-image: url('Images/backbutton.png');
+	-fx-background-color:transparent;
+	-fx-background-size: contain; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-padding:0; 
+    -fx-border-width:0;
+
+}
+.homebutton:hover{
+	-fx-opacity:0.8;
+}
+.endtext{
+	-fx-fill: #601a11;
+
+}
+.WTitle{
+	-fx-fill: #ffffff;
+}
+.currentbuttons{
+	-fx-background-color: #a0391c;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 15px;
+	-fx-opacity:0.7;
+}
+.weaponshopbutton{
+	-fx-background-color: #a0391c;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 15px;
+	-fx-opacity:0.7;
+}
+.weaponshopbutton:hover{
+	-fx-opacity:1;
+}
+
+.tithealth{
+	-fx-fill: #ffffff;
+	-fx-font-size: 10px;
+	 -fx-text-alignment: center;
+	
+}
+.weaponshopinside{
+	-fx-background-color: #E4D5B7;
+	-fx-fill: #ffffff;
+	-fx-background-radius: 15px;
+	-fx-opacity:0.7;
+	
+}
+
